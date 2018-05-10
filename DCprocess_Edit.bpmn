@@ -123,6 +123,12 @@
       <bpmn2:incoming>SequenceFlow_32</bpmn2:incoming>
       <bpmn2:outgoing>SequenceFlow_33</bpmn2:outgoing>
     </bpmn2:task>
+    
+     <bpmn2:task id="Task_30" name="ทดสอบ">
+      <bpmn2:incoming>SequenceFlow_32</bpmn2:incoming>
+      <bpmn2:outgoing>SequenceFlow_33</bpmn2:outgoing>
+    </bpmn2:task>
+    
     <bpmn2:sequenceFlow id="SequenceFlow_32" sourceRef="StartEvent_3" targetRef="Task_13" />
     <bpmn2:task id="Task_14" name="สแกนเข้าระบบ">
       <bpmn2:incoming>SequenceFlow_33</bpmn2:incoming>
